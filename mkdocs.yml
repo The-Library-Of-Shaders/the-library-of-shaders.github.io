@@ -25,3 +25,7 @@ nav:
         - Bloom: articles/post/Bloom.md
         - Vignette: articles/post/Vignette.md
         - Gaussian Blur: articles/post/GaussianBlur.md
+
+  - Resources:
+      - Index: articles/resources/index.md
+      - Godot 4.X: articles/resources/godot.md
