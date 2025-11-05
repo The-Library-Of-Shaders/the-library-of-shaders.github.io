@@ -186,7 +186,7 @@ vec2 blueAlpha = texture(iChannel0, normalizedCoords + (shiftedCoords * blueOffs
 </code></pre>
 <p>So you see, the values range from 0.5 at the bottom left, to 0.5 at the top right. This means that in the center, the values are 0.0, or close to it. We're effectively reducing our offset by how close it is to the center. </p>
 <p>This means that the effect will only really be visible around the edges, which is exactly what we want.</p>
-<p>However, it's probably not going to be that visible, as we've effectively halved it, seeing how we're multipling by at most, 0.5. So we can modify our absolute value line to increase it.</p>
+<p>However, it's probably not going to be that visible, as we've effectively halved it, seeing how we're multiplying by at most, 0.5. So we can modify our absolute value line to increase it.</p>
 <pre><code class="language-js">shiftedCoords = abs(shiftedCoords) * 2.0;
 </code></pre>
 <p>Doubling it brings it back to the original strength, but you can increase this or decrease it however you want to tweak the strength.</p>
