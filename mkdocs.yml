@@ -1,0 +1,27 @@
+site_name: The Library Of Shaders
+extra_css:
+  - css/custom.css
+
+theme:
+  name: mkdocs
+  user_color_mode_toggle: false
+  color_mode: dark
+  custom_dir: docs/theme/
+
+
+nav:
+  - Home: index.md
+
+  - Shaders:
+      - Vertex Shaders:
+        - Index: articles/vertex/index.md
+
+      - Fragment Shaders:
+        - Index: articles/fragment/index.md
+
+      - Post Processing:
+        - Index: articles/post/index.md
+        - Chromatic Aberration: articles/post/ChromaticAberration.md
+        - Bloom: articles/post/Bloom.md
+        - Vignette: articles/post/Vignette.md
+        - Gaussian Blur: articles/post/GaussianBlur.md
