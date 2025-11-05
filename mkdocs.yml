@@ -14,14 +14,14 @@ nav:
 
   - Shaders:
       - Vertex Shaders:
-        - Index: articles/vertex/index.md
+        - Index: Vertex/index.md
 
       - Fragment Shaders:
-        - Index: articles/fragment/index.md
+        - Index: Fragment/index.md
 
       - Post Processing:
-        - Index: articles/post/index.md
-        - Chromatic Aberration: articles/post/ChromaticAberration.md
-        - Bloom: articles/post/Bloom.md
-        - Vignette: articles/post/Vignette.md
-        - Gaussian Blur: articles/post/GaussianBlur.md
+        - Index: PostProcessing/index.md
+        - Chromatic Aberration: PostProcessing/ChromaticAberration.md
+        - Bloom: PostProcessing/Bloom.md
+        - Vignette: PostProcessing/Vignette.md
+        - Gaussian Blur: PostProcessing/GaussianBlur.md
