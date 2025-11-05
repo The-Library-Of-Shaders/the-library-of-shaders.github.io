@@ -1,6 +1,6 @@
 site_name: The Library Of Shaders
 site_description: Copyright and license free library of shaders and explanations to empower developers to learn shader development
-repo_url: https://github.com/Snorfield/The-Library-Of-Shaders
+repo_url: https://github.com/The-Library-Of-Shaders/the-library-of-shaders
 
 extra_css:
   - css/custom.css
@@ -33,3 +33,4 @@ nav:
       - Resources:
         - Index: Resources/index.md
         - Godot 4.X: Resources/godot.md
+
