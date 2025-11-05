@@ -29,6 +29,7 @@ Other shading langages, such as Godot's shader language, are quite similar to GL
 
 All contributions are welcomed, and the contribution guide can be viewed on the [github repository](https://github.com/Snorfield/The-Library-Of-Shaders). This library is built by developers for developers, and we appreciate everyone's help.
 
+NOTICE: This should go without being said, but we strive to follow the principals of the [5 Wikipedian Pillars](https://en.wikipedia.org/wiki/Wikipedia:Five_pillars). Thanks for your understanding and have a good day!
 
 ## Licensing and Copyright
 
