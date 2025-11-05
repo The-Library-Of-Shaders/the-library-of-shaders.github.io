@@ -168,7 +168,7 @@
 <p>The Library of Shaders is an open-source project that intends to release <strong>copyright and license free</strong> examples and explanations of miscellaneous shader effects, in order to empower developers to learn and develop shader effects themselves.</p>
 <p>All shader code here is written to be valid <strong>GLSL</strong> or <strong>OpenGL Shading Language</strong>. We define a few variables which match the <a href="https://www.shadertoy.com/new">ShaderToy</a> environment for ease of testing, but they can be easily adapted as needed.</p>
 <h2 id="variables">Variables</h2>
-<pre><code class="language-js">Shader Inputs
+<pre><code class="language-js">// ShaderToy uniforms
 uniform vec3      iResolution;           // viewport resolution (in pixels)
 uniform float     iTime;                 // shader playback time (in seconds)
 uniform float     iTimeDelta;            // render time (in seconds)
@@ -181,6 +181,8 @@ uniform samplerXX iChannel0..3;          // input channel. XX = 2D/Cube
 uniform vec4      iDate;                 // (year, month, day, time in seconds)
 </code></pre>
 <p>These are the uniforms defined by <strong>ShaderToy</strong>, and the shader examples in this library use them, as mentioned before, for ease of testing.</p>
+<p>If ShaderToy does not have a uniform for a certain thing that the shader requires, it will be explained in the article, and the uniforms will still follow the naming convention for ShaderToy. An example of this is <strong>vertex shaders</strong>. As ShaderToy is mainly a playground for <strong>fragment shaders</strong>, there's nothing like <code>uniform mat4 iModel;</code>. However, we still have a section for vertex shaders, they just won't be able to run in the ShaderToy environment.</p>
+<p>Articles will explain any uniforms not available in ShaderToy, and you can refer back here to get an explanation for any uniforms which are available in ShaderToy.</p>
 <p>Other shading langages, such as Godot's shader language, are quite similar to GLSL, and therefore easy to adapt these shaders to.</p>
 <h2 id="contributing">Contributing</h2>
 <p>All contributions are welcomed, and the contribution guide can be viewed on the <a href="https://github.com/Snorfield/The-Library-Of-Shaders">github repository</a>. This library is built by developers for developers, and we appreciate everyone's help.</p>
@@ -268,5 +270,5 @@ uniform vec4      iDate;                 // (year, month, day, time in seconds)
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-11-05 23:07:20.661805+00:00
+Build Date UTC : 2025-11-05 23:12:55.090942+00:00
 -->
