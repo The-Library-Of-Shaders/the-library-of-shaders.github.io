@@ -1,4 +1,7 @@
 site_name: The Library Of Shaders
+site_description: Copyright and license free library of shaders and explanations to empower developers to learn shader development
+repo_url: https://github.com/Snorfield/The-Library-Of-Shaders
+
 extra_css:
   - css/custom.css
 
@@ -25,3 +28,4 @@ nav:
         - Bloom: PostProcessing/Bloom.md
         - Vignette: PostProcessing/Vignette.md
         - Gaussian Blur: PostProcessing/GaussianBlur.md
+
