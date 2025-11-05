@@ -8,11 +8,10 @@ Copyright and license free library of shaders and explanations to empower develo
 
 So you want to add your own articles or other stuff to this project. That's awesome, there's just a few rules for contribution.
 
-### Rule 1
-Use the ShaderToy uniforms in all of your code.
+If the ShaderToy uniforms (below) has a variable for something you need in your shader, use it. If not, follow the ShaderToy naming style and explain what the variable is in your article. An example of this would be if you need the camera position for your shader to function. Define it as `iCameraPosition`, and also specify the type. So, `uniform vec3 iCameraPosition`.
 
 ```js
-Shader Inputs
+// ShaderToy uniforms
 uniform vec3      iResolution;           // viewport resolution (in pixels)
 uniform float     iTime;                 // shader playback time (in seconds)
 uniform float     iTimeDelta;            // render time (in seconds)
@@ -29,16 +28,9 @@ For certain effects that may use more then four input channels, you should speci
 
 It's recommended to also test the code before committing it. :)
 
-### Rule 2
-
 Always include detailed explanations on what the shader is doing and the math behind it. The Library of Shaders is here to help developers understand effects, not just copy and paste them.
 
-
-### Rule 3
-
 You agree that your code and articles are licensed **Creative Commons Zero**, and require no credit for developers to use them.
-
-### Rule 4
 
 Write the code to be proper **GLSL** or **OpenGL Shading Language**, in terms of syntax. 
 
