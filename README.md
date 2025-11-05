@@ -1,7 +1,7 @@
 # The Library Of Shaders 
 https://snorfield.github.io/The-Library-Of-Shaders/
 
-Library of GLSL shaders and explanations to empower developers to learn shader development.
+Copyright and license free library of shaders and explanations to empower developers to learn shader development
 
 
 ## Contribution Rules
@@ -37,6 +37,10 @@ Always include detailed explanations on what the shader is doing and the math be
 ### Rule 3
 
 You agree that your code and articles are licensed **Creative Commons Zero**, and require no credit for developers to use them.
+
+### Rule 4
+
+Write the code to be proper **GLSL** or **OpenGL Shading Language**, in terms of syntax. 
 
 
 
