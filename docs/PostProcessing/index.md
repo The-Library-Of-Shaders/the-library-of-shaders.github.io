@@ -1,14 +1,13 @@
-# Post Processing Shaders
+# Post-Processing Shaders
 
-Post processing shaders are what they sound like. These shaders run after (post-) processing happens. 
+Post-processing shaders are exactly what they sound like. These shaders run after (post-) initial processing happens. Instead of affecting how objects are drawn, they can apply final visual effects before the user sees the frame.
 
-Instead of affecting how objects are drawn, they can apply final visual effects, before the user sees the frame.
+Post-processing effects can include:
 
-Post processing effects can include:
-
-- Bloom
+- [Bloom](Bloom.md)
+- [Chromatic Aberration](ChromaticAbberation.md)
 - Motion Blur
 - Sharpening
-- Chromatic Aberration
+- [Vignette](Vignette.md)
 
 and a lot of other very cool stuff.

@@ -1,6 +1,7 @@
 site_name: The Library Of Shaders
 site_description: Copyright and license free library of shaders and explanations to empower developers to learn shader development
 repo_url: https://github.com/The-Library-Of-Shaders/the-library-of-shaders
+edit_uri: edit/main/docs/
 
 extra_css:
   - css/custom.css
@@ -22,15 +23,12 @@ nav:
       - Fragment Shaders:
         - Index: Fragment/index.md
 
-      - Post Processing:
+      - Post-Processing:
         - Index: PostProcessing/index.md
         - Chromatic Aberration: PostProcessing/ChromaticAberration.md
         - Bloom: PostProcessing/Bloom.md
         - Vignette: PostProcessing/Vignette.md
         - Gaussian Blur: PostProcessing/GaussianBlur.md
 
-
-      - Resources:
-        - Index: Resources/index.md
-        - Godot 4.X: Resources/godot.md
+      - Resources: Resources/index.md
 

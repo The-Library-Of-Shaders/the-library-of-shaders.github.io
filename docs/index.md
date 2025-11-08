@@ -2,10 +2,12 @@
 
 The Library of Shaders is an open-source project that intends to release **copyright and license free** examples and explanations of miscellaneous shader effects, in order to empower developers to learn and develop shader effects themselves.
 
-All shader code here is written to be valid **GLSL** or **OpenGL Shading Language**. We define a few variables which match the [ShaderToy](https://www.shadertoy.com/new) environment for ease of testing, but they can be easily adapted as needed.
+All shader code here is written in valid **GLSL** or **OpenGL Shading Language**.
 
 
 ## Variables
+
+We define a few variables that match the [ShaderToy](https://www.shadertoy.com/new) environment for ease of testing, but they can be easily adapted if you use another shader language (e.g. Godot's shader language) as needed.
 
 ```js
 // ShaderToy uniforms
@@ -21,20 +23,16 @@ uniform samplerXX iChannel0..3;          // input channel. XX = 2D/Cube
 uniform vec4      iDate;                 // (year, month, day, time in seconds)
 ```
 
-These are the uniforms defined by **ShaderToy**, and the shader examples in this library use them, as mentioned before, for ease of testing.
+If ShaderToy does not have a uniform for a certain thing that the shader requires, it will be explained in the article, and the uniforms will still follow the naming convention for ShaderToy. An example of this is **vertex shaders**. Because ShaderToy is mainly a playground for **fragment shaders**, there's nothing like `uniform mat4 iModel;`. However, we still have a section for vertex shaders, they just won't be able to run in the ShaderToy environment.
 
-If ShaderToy does not have a uniform for a certain thing that the shader requires, it will be explained in the article, and the uniforms will still follow the naming convention for ShaderToy. An example of this is **vertex shaders**. As ShaderToy is mainly a playground for **fragment shaders**, there's nothing like `uniform mat4 iModel;`. However, we still have a section for vertex shaders, they just won't be able to run in the ShaderToy environment.
-
-Articles will explain any uniforms not available in ShaderToy, and you can refer back here to get an explanation for any uniforms which are available in ShaderToy.
-
-Other shading langages, such as Godot's shader language, are quite similar to GLSL, and therefore easy to adapt these shaders to.
+Articles will explain any uniforms not available in ShaderToy.
 
 ## Contributing
 
-All contributions are welcomed, and the contribution guide can be viewed on the [github repository](https://github.com/Snorfield/The-Library-Of-Shaders). This library is built by developers for developers, and we appreciate everyone's help.
+All contributions are welcomed, and the contribution guide can be viewed on the [GitHub repository](https://github.com/Snorfield/The-Library-Of-Shaders). This library is built by developers for developers, and we appreciate everyone's help.
 
-This should go without being said, but we strive to follow the principals of the [5 Wikipedian Pillars](https://en.wikipedia.org/wiki/Wikipedia:Five_pillars). 
+We strive to follow the principals of the [5 Wikipedian Pillars](https://en.wikipedia.org/wiki/Wikipedia:Five_pillars).
 
 ## Licensing and Copyright
 
-This entire library, and all work inside it, is licensed **Creative Commons Zero**. You can do anything you want with it, including clone the entire website. The license information is avalible on the [repository](https://github.com/Snorfield/The-Library-Of-Shaders/blob/main/LICENSE).
+This entire library, and all work inside of it, is licensed under **Creative Commons Zero**. You can read the full text [here](https://github.com/Snorfield/The-Library-Of-Shaders/blob/main/LICENSE).
