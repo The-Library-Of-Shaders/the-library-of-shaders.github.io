@@ -63,7 +63,7 @@
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Post Processing</a>
+    <a href="#" class="dropdown-item">Post-Processing</a>
     <ul class="dropdown-menu">
             
 <li>
@@ -88,19 +88,9 @@
     </ul>
   </li>
                                     
-  <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Resources</a>
-    <ul class="dropdown-menu">
-            
 <li>
-    <a href="Resources/" class="dropdown-item">Index</a>
+    <a href="Resources/" class="dropdown-item">Resources</a>
 </li>
-            
-<li>
-    <a href="Resources/godot/" class="dropdown-item">Godot 4.X</a>
-</li>
-    </ul>
-  </li>
                                 </ul>
                             </li>
                         </ul>
@@ -122,7 +112,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/The-Library-Of-Shaders/the-library-of-shaders/edit/master/docs/index.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/The-Library-Of-Shaders/the-library-of-shaders/edit/main/docs/index.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -166,8 +156,9 @@
 
 <h1 id="welcome-to-the-library-of-shaders">Welcome to the Library of Shaders</h1>
 <p>The Library of Shaders is an open-source project that intends to release <strong>copyright and license free</strong> examples and explanations of miscellaneous shader effects, in order to empower developers to learn and develop shader effects themselves.</p>
-<p>All shader code here is written to be valid <strong>GLSL</strong> or <strong>OpenGL Shading Language</strong>. We define a few variables which match the <a href="https://www.shadertoy.com/new">ShaderToy</a> environment for ease of testing, but they can be easily adapted as needed.</p>
+<p>All shader code here is written in valid <strong>GLSL</strong> or <strong>OpenGL Shading Language</strong>.</p>
 <h2 id="variables">Variables</h2>
+<p>We define a few variables that match the <a href="https://www.shadertoy.com/new">ShaderToy</a> environment for ease of testing, but they can be easily adapted if you use another shader language (e.g. Godot's shader language) as needed.</p>
 <pre><code class="language-js">// ShaderToy uniforms
 uniform vec3      iResolution;           // viewport resolution (in pixels)
 uniform float     iTime;                 // shader playback time (in seconds)
@@ -180,15 +171,13 @@ uniform vec4      iMouse;                // mouse pixel coords. xy: current (if 
 uniform samplerXX iChannel0..3;          // input channel. XX = 2D/Cube
 uniform vec4      iDate;                 // (year, month, day, time in seconds)
 </code></pre>
-<p>These are the uniforms defined by <strong>ShaderToy</strong>, and the shader examples in this library use them, as mentioned before, for ease of testing.</p>
-<p>If ShaderToy does not have a uniform for a certain thing that the shader requires, it will be explained in the article, and the uniforms will still follow the naming convention for ShaderToy. An example of this is <strong>vertex shaders</strong>. As ShaderToy is mainly a playground for <strong>fragment shaders</strong>, there's nothing like <code>uniform mat4 iModel;</code>. However, we still have a section for vertex shaders, they just won't be able to run in the ShaderToy environment.</p>
-<p>Articles will explain any uniforms not available in ShaderToy, and you can refer back here to get an explanation for any uniforms which are available in ShaderToy.</p>
-<p>Other shading langages, such as Godot's shader language, are quite similar to GLSL, and therefore easy to adapt these shaders to.</p>
+<p>If ShaderToy does not have a uniform for a certain thing that the shader requires, it will be explained in the article, and the uniforms will still follow the naming convention for ShaderToy. An example of this is <strong>vertex shaders</strong>. Because ShaderToy is mainly a playground for <strong>fragment shaders</strong>, there's nothing like <code>uniform mat4 iModel;</code>. However, we still have a section for vertex shaders, they just won't be able to run in the ShaderToy environment.</p>
+<p>Articles will explain any uniforms not available in ShaderToy.</p>
 <h2 id="contributing">Contributing</h2>
-<p>All contributions are welcomed, and the contribution guide can be viewed on the <a href="https://github.com/Snorfield/The-Library-Of-Shaders">github repository</a>. This library is built by developers for developers, and we appreciate everyone's help.</p>
-<p>This should go without being said, but we strive to follow the principals of the <a href="https://en.wikipedia.org/wiki/Wikipedia:Five_pillars">5 Wikipedian Pillars</a>. </p>
+<p>All contributions are welcomed, and the contribution guide can be viewed on the <a href="https://github.com/Snorfield/The-Library-Of-Shaders">GitHub repository</a>. This library is built by developers for developers, and we appreciate everyone's help.</p>
+<p>We strive to follow the principals of the <a href="https://en.wikipedia.org/wiki/Wikipedia:Five_pillars">5 Wikipedian Pillars</a>.</p>
 <h2 id="licensing-and-copyright">Licensing and Copyright</h2>
-<p>This entire library, and all work inside it, is licensed <strong>Creative Commons Zero</strong>. You can do anything you want with it, including clone the entire website. The license information is avalible on the <a href="https://github.com/Snorfield/The-Library-Of-Shaders/blob/main/LICENSE">repository</a>.</p></div>
+<p>This entire library, and all work inside of it, is licensed under <strong>Creative Commons Zero</strong>. You can read the full text <a href="https://github.com/Snorfield/The-Library-Of-Shaders/blob/main/LICENSE">here</a>.</p></div>
             </div>
         </div>
 
@@ -270,5 +259,5 @@ uniform vec4      iDate;                 // (year, month, day, time in seconds)
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-11-06 04:53:43.008129+00:00
+Build Date UTC : 2025-11-08 17:20:32.548079+00:00
 -->
